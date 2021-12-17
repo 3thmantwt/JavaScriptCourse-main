@@ -34,3 +34,10 @@ console.log(a.split(" ",1)); // ["Elzero"]
 
 // Use Only "substr" Method + Template Literals In Your Solution
 console.log(a.substring(0,6)+ a.substring(17,10)); // Elzero School
+
+
+
+
+
+
+
