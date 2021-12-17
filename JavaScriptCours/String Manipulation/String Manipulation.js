@@ -38,4 +38,7 @@ console.log(a.substring(0,6)+ a.substring(17,10)); // Elzero School
 //                   [  الطلب الخامس ]
 
 // Solution Must Be Dynamic Because String May Changes
-console.log(); // eLZERO WEB SCHOOl
+
+console.log(a.charAt(0).toLowerCase()+a.slice(1,-1).toUpperCase()
+                + a.slice(-1)) // eLZERO WEB SCHOOl
+
