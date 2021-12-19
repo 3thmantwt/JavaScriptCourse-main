@@ -21,6 +21,13 @@ console.log(`
 
 // ======================= Start Challenge =========================
 
+
+let a = 10;
+
+(a < 10) ? console.log(10) : (a >= 10 && a <= 40 ) ? console.log("10 To 40") :(a > 40 ) ? console.log("> 40") : console.log("Unknown");
+
+
+
 let st = "Elzero Web School";
 
 if ((st.length + st.length).toString() === "34") { // Done
