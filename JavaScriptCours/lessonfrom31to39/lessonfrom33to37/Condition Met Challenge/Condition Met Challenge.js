@@ -27,7 +27,7 @@ if ((st.length + st.length).toString() === "34") { // Done
     console.log("Good");
 }
 
-if (st[7].toLowerCase() === "w") { // Done --?
+if (st.slice(-10,-9).toLowerCase() === "w") { // Done --?
     console.log("Good");
 }
 
@@ -45,5 +45,6 @@ if (st.split(" ",1).toString().repeat(2) === "ElzeroElzero") { // Done
 // console.log(st.split(" ",1).toString().repeat(2) );
 // console.log(st.slice(0,5).length);
 // console.log((st.length + st.length).toString());
+// console.log(st.slice(-10,-9).toLowerCase())
 
 // ======================= End Challenge =========================
