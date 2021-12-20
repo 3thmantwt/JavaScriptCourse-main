@@ -22,6 +22,8 @@ if (job === "Manager") {
   salary = 4000;
 }
 
+// === Change To Switch ===
+
 switch (job) {
     case "Manager":
         salary = 8000;
@@ -76,6 +78,8 @@ switch (holidays) {
       money = 0;
       console.log(`My Money is ${money}`);
   }
+
+// === Change To If ===
 
 if (holidays === 0) {
     money = 5000;
