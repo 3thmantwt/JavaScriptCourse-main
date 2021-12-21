@@ -31,3 +31,5 @@ console.log(my[zero]); // "Elzero"
 // console.log(my[zero].slice(counter + true,counter+true+true)+my[zero].slice(counter+counter-true).toUpperCase())
 
 console.log(my[zero].slice(counter + true,counter+true+true)+my[zero].slice(counter+counter-true).toUpperCase()); // "rO"
+
+console.log(-zero )
