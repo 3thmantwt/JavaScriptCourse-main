@@ -1,49 +1,25 @@
+document.write(`<div>`);
+document.write(`<h1> Loop For </h1>`)
+document.write(`</div>`);
 
-/*
-                            =======================                             
---- -- --- -- --- -- --- -- Condition Met Challenge -- --- -- --- -- --- -- --- 
-                            =======================                             
-*/
-console.log(`
+let start = 10;
+let end = 0;
+let stop = 3;
 
-
-=======================     
-
-
-       Condition
-           Met 
-        Challenge  
-
-                            =======================                            
-
-
-`)
-
-// ======================= Start Challenge =========================
-
-let st = "Elzero Web School";
-
-if ((st.length + st.length).toString() === "34") { // Done
-    console.log("Good");
+for (i = start; i > end; i--) {
+    if (i < start) {
+        console.log(`0${i}`)
+    }
+    if (i === start) {
+        console.log(i)
+    }
 }
-
-if (st[7].toLowerCase() === "w") { // Done --?
-    console.log("Good");
-}
-
-if (typeof st.length !== "string") { // Done
-    console.log("Good");
-}
-
-if (typeof st.length === "number") { // Done
-    console.log("Good");
-}
-
-if (st.split(" ",1).toString().repeat(2) === "ElzeroElzero") { // Done 
-    console.log("Good");
-}
-// console.log(st.split(" ",1).toString().repeat(2) );
-// console.log(st.slice(0,5).length);
-// console.log((st.length + st.length).toString());
-
-// ======================= End Challenge =========================
+// Output
+10
+09
+08
+07
+06
+05
+04
+03
