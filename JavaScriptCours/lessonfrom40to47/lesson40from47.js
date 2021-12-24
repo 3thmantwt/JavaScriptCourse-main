@@ -69,3 +69,8 @@ allArrs = (arr2[arr1.length - true] + arr1[arr2.length - (true + true)] + arr2[a
     // Your Code Here
 
 console.log(allArrs); // fxy
+
+for (let i = 0; i < arr2.length; i++) {
+
+    console.log(arr2[i]);
+}
