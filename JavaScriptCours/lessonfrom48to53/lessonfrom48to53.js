@@ -54,25 +54,25 @@ document.write(`</div>`);
 
 // =========== [  3  ] ===========
 
-let start = 1;
-let end = 6;
-let breaker = 2;
+// let start = 1;
+// let end = 6;
+// let breaker = 2;
 
-for (let i = start; i <= end; i++) {
+// for (let i = start; i <= end; i++) {
 
-    console.log(i);
+//     console.log(i);
 
-    for (r = breaker; r < end; r++) {
-        if (r === (start + breaker)) {
-            continue;
-        }
-        if (r === (end - start)) {
-            break;
-        }
-        console.log(`-- ${r}`);
+//     for (r = breaker; r < end; r++) {
+//         if (r === (start + breaker)) {
+//             continue;
+//         }
+//         if (r === (end - start)) {
+//             break;
+//         }
+//         console.log(`-- ${r}`);
 
-    }
-}
+//     }
+// }
 
 // Output
 // 1
@@ -93,3 +93,99 @@ for (let i = start; i <= end; i++) {
 // 6
 // --2
 // --4
+
+// =========== [  4  ] ===========
+
+let index = 10;
+let jump = 2;
+let end = 0;
+
+for (n = index; n > end; n = n - jump) {
+    // Write Your Code Here
+    if (n === (jump)) {
+        break;
+    }
+    console.log(n);
+}
+
+// Output
+10
+8
+6
+4
+
+// =========== [  5  ] ===========   --?
+
+let friends = ["Ahmed", "Sayed", "Eman", "Mahmoud", "Ameer", "Osama", "Sameh"];
+let letter = "a";
+
+for (let i = false; i < friends.length; i++) {
+
+
+    if (i === false) {
+        continue;
+    }
+    if (friends[i].startsWith(letter.toUpperCase())) { // ----?
+        continue;
+    }
+
+    console.log(`"${i} => ${friends[i]}"`)
+}
+
+// Output
+"1 => Sayed"
+"2 => Eman"
+"3 => Mahmoud"
+"4 => Osama"
+"5 => Sameh"
+
+
+// =========== [  6  ] ===========
+
+
+// let start = 0;
+// let swappedName = "elZerO";
+// let theJoin = [];
+// for (start; start < swappedName.length; start++) {
+
+//     if (swappedName[start] === swappedName[start].toLowerCase()) {
+
+//         swappedName[start].toUpperCase().split();
+//         theJoin.push(swappedName[start].toUpperCase().split());
+//     }
+
+//     if (swappedName[start] === swappedName[start].toUpperCase()) {
+
+//         swappedName[start].toLowerCase();
+//         theJoin.push(swappedName[start].toLowerCase());
+//     }
+
+// }
+// console.log(`"${theJoin.join("")}"`);
+
+// // Output
+// "ELzERo"
+
+
+// =========== [  7  ] ===========
+
+let start = 0;
+let mix = [1, 2, 3, "A", "B", "C", 4];
+
+for (let e = start; e < mix.length; e++) {
+
+    if (e === start) {
+        continue;
+    }
+    if (mix[e] === mix[e].toString()) {
+        continue;
+    }
+
+    console.log(`${mix[e]}`);
+}
+
+
+// Output
+2
+3
+4
