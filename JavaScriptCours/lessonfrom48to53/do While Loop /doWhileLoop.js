@@ -1,14 +1,19 @@
 let myAdmins = ["Ahmed", "Osama", "Sayed", "Stop", "Samera"];
 let myEmployees = ["Amgad", "Samah", "Ameer", "Omar", "Othman", "Amany", "Samia", "Ali"];
 let a = [];
-let count = 0;
+let count;
 // start
 
 document.write(`<div>We Have X Admins</div>`)
 
-if (myAdmins[3] === "Stop") {
-    myAdmins.splice(3);
-    document.write(`<div>We Have ${myAdmins.length} Admins</div>`)
+// count Admins 
+
+for (count = 0; count < myAdmins.length; count++) {
+
+    if (myAdmins[count] === "Stop") {
+        myAdmins.splice(count);
+        document.write(`<div>We Have ${myAdmins.length} Admins</div>`)
+    }
 }
 
 document.write('<hr/>') // hr
