@@ -1,25 +1,35 @@
-document.write(`<div>`);
-document.write(`<h1> Loop For </h1>`)
-document.write(`</div>`);
+let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
+let index = 0;
+let counter = 0;
 
-let start = 10;
-let end = 0;
-let stop = 3;
-
-for (i = start; i > end; i--) {
-    if (i < start) {
-        console.log(`0${i}`)
-    }
-    if (i === start) {
-        console.log(i)
-    }
-}
 // Output
-10
-09
-08
-07
-06
-05
-04
-03
+"1 => Sayed"
+"2 => Mahmoud"
+
+
+
+
+do {
+    counter++
+    index++
+} while (false);
+do {
+    console.log(`"${counter} => ${friends[index]}"`)
+    document.write(`<h1>"${counter} => ${friends[index]}"</h1>`)
+    index++
+} while (false);
+do {
+    index++
+} while (false);
+do {
+    index++
+} while (false);
+do {
+    counter++
+    index++
+} while (false);
+do {
+    console.log(`"${counter} => ${friends[index]}"`)
+    document.write(`<h1>"${counter} => ${friends[index]}"</h1>`)
+    index++
+} while (false);

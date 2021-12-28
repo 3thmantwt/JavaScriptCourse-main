@@ -30,9 +30,10 @@ for (let i = 0; i < myAdmins.length; i++) {
             if (myEmployees[x].startsWith("A")) {
 
                 document.write(`<p> - ${myEmployees[x]} </p>`)
+
             }
-            // === O ===
         }
+        // === O ===
         if (myAdmins[i].startsWith("O")) {
             if (myEmployees[x].startsWith("O")) {
 
@@ -40,8 +41,8 @@ for (let i = 0; i < myAdmins.length; i++) {
             }
 
 
-            // === S ===
         }
+        // === S ===
         if (myAdmins[i].startsWith("S")) {
             if (myEmployees[x].startsWith("S")) {
 
