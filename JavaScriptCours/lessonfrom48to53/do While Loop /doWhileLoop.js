@@ -22,7 +22,7 @@ for (let i = 0; i < myAdmins.length; i++) {
     // Main loop
 
     // nested Loop
-    document.write(`<div>The Admin For Team  [${i + 1}] Is ${myAdmins[i]} <h3>Team Members : </h3><p> </P></div>`)
+    document.write(`<div>The Admin For Team  [${i + 1}] Is ${myAdmins[i]} <h3>Team Members : </h3>`)
     for (let x = 0; x < myEmployees.length; x++) {
 
         // === A ===
@@ -51,7 +51,9 @@ for (let i = 0; i < myAdmins.length; i++) {
 
 
 
+
         }
     }
+    document.write(`</div>`)
     document.write(`<hr/>`)
 }

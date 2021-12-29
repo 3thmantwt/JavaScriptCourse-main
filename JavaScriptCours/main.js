@@ -33,3 +33,10 @@ do {
     document.write(`<h1>"${counter} => ${friends[index]}"</h1>`)
     index++
 } while (false);
+
+
+function _massGes(userName, Age) {
+
+    console.log(userName + Age)
+}
+_massGes("othman", 38)
